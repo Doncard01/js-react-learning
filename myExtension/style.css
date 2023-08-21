@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vi;
+    margin: 0;
+    min-width: 400px;
+}
+
+#input-el {
+    padding-left: 1vi;
+    padding-right: 1vi;
+    padding-top: 0.5vi;
+    padding-bottom: 0.5vi;
+    margin-bottom: 0.5vi;
+    height: 5vi;
+    width: 98vi;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    font-size: 3vi;
+}
+
+.myButton {
+    color: white;
+    font-weight: bold;
+    font-size: 2vi;
+    text-transform: uppercase;
+    background-color: #5f9341;
+    padding-top: 1vi;
+    padding-bottom: 1vi;
+    padding-left: 3vi;
+    padding-right: 3vi;
+    border: 1px solid #5f9341;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1vi;
+}
+
+li {
+    margin-top: 0.25vi;
+}
+
+li a {  /* tylko `a` które są w środku `li` */
+    color: #5f9341;;
+}
